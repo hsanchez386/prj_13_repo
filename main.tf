@@ -55,7 +55,7 @@ resource "aws_security_group" "sg_web" {
 }
 
 resource "aws_s3_bucket" "amazn-bucket" {
-  bucket = "amazn-bucket-prj-02-hsanchez-386"
+  bucket = "amazn-bucket-prj-13-hsanchez-386"
 
   tags = {
     Terraform = "True"
