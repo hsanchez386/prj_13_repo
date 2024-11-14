@@ -3,7 +3,7 @@ terraform {
     organization = "terraform-cert-lab"
 
     workspaces {
-      project = "DevOps Automation"
+      name = "DevOps Automation"
     }
   }
 }
